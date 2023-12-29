@@ -4,7 +4,9 @@
         <img src="https://terminal-cloud.vercel.app/static/images/terminal.jpg" alt="Terminal logo" />
     </a>
 </div>
-### Description
+
+## Description
+
  A simple music player that utilizes Python and Flask. / Un simple lecteur de musique qui utilise Python et Flask.
 
 ## Getting Started / Pour commencer
