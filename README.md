@@ -42,16 +42,4 @@ To run this application, you'll need to have Python and Flask installed. / Pour 
 
 2. Once started, the terminal will display a local IP address. / Une fois démarré, le terminal affichera une adresse IP locale.
 
-3. Open your web browser and visit the displayed local IP address to access the preview page of the music player. / Ouvrez votre navigateur web et visitez l'adresse IP locale affichée pour accéder à la page de prévisualisation du lecteur de musique.
-
-## Usage / Utilisation
-
-- Once the application is running and accessed through the browser, follow on-screen instructions to interact with the music player. / Une fois que l'application est en cours d'exécution et accédée via le navigateur, suivez les instructions à l'écran pour interagir avec le lecteur de musique.
-
-## Contributing / Contribution
-
-Feel free to contribute to this project by forking the repository and submitting pull requests. Please follow the [contributing guidelines](CONTRIBUTING.md). / N'hésitez pas à contribuer à ce projet en clonant le dépôt et en soumettant des pull requests. Veuillez suivre les [directives de contribution](CONTRIBUTING.md).
-
-## License / Licence
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. / Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+3. Open your web browser and visit the displayed local IP address, it will be like ```http://127.0.0.1:5000```/ Ouvrez votre navigateur Web et visitez l'adresse IP locale affichée, elle ressemblera à ```http://127.0.0.1:5000```
