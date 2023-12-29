@@ -37,7 +37,7 @@ To run this application, you'll need to have Python and Flask installed. / Pour 
 1. Run the `startApp.py` file: / Exécutez le fichier `startApp.py` :
 
     ```bash
-    python startApp.py
+    python3 startApp.py
     ```
 
 2. Once started, the terminal will display a local IP address. / Une fois démarré, le terminal affichera une adresse IP locale.
