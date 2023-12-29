@@ -52,32 +52,12 @@ function setupMediaSessionControls() {
 }
 
 // Load music data from data.json
-const apiUrl = 'https://api.github.com/repos/jishal919/telegram-bot-database/contents/api/static/js/SongList.json';
-const apiKey = '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';
-
-fetch(apiUrl, {
-  headers: {
-    Authorization: `Bearer ${apiKey}`,
-  },
-})
+fetch('/static/js/data.json')
   .then(response => response.json())
   .then(data => {
-    // Now 'data' contains the content of the SongList.json file
-    console.log(data);
-
-    // If the content is base64 encoded, decode it
-    const decodedContent = atob(data.content);
-    const jsonData = JSON.parse(decodedContent);
-    
-    // Now 'jsonData' contains the parsed JSON content
-    console.log(jsonData);
-
-    // Continue with your code...
-    kpop = jsonData.kpop;
+    kpop = data.kpop;
     loadTrack(track_index); // Load the initial track
-    setupMediaSessionControls();
-  })
-  .catch(error => console.error('Error fetching data:', error));
+  });
 
 
 function loadTrack(track_index) {
