@@ -40,7 +40,8 @@ To run this application, you'll need to have Python and Flask installed.
     python startApp.py
     ```
 
-2. Once started, the terminal will display a local IP address , it will be like "http://127.0.0.1:5000"
+2. Once started, the terminal will display a local IP address , it will be like ```bash http://127.0.0.1:5000```
+    ```
 
 3. Open your web browser and visit the displayed local IP address to access the preview page of the music player.
 
