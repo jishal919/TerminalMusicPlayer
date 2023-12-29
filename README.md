@@ -1,8 +1,11 @@
 # Terminal Music Player
 <div style="text-align:center">
-    <img src="https://terminal-cloud.vercel.app/static/images/terminal.jpg" alt="Terminal logo" />
+    <a href="https://terminal-cloud.vercel.app/">
+        <img src="https://terminal-cloud.vercel.app/static/images/terminal.jpg" alt="Terminal logo" />
+    </a>
 </div>
-A simple music player that utilizes Python and Flask. / Un simple lecteur de musique qui utilise Python et Flask.
+### Description
+ A simple music player that utilizes Python and Flask. / Un simple lecteur de musique qui utilise Python et Flask.
 
 ## Getting Started / Pour commencer
 
@@ -25,7 +28,7 @@ To run this application, you'll need to have Python and Flask installed. / Pour 
 2. Navigate to the project directory: / Accédez au répertoire du projet :
 
     ```bash
-    cd terminal-music-player
+    cd TerminalMusicPlayer-main
     ```
 
 3. Install Flask: / Installez Flask :
