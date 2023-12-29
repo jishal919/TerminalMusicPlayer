@@ -17,7 +17,7 @@ To run this application, you'll need to have Python and Flask installed.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/terminal-music-player.git
+    git clone https://github.com/jishal919/TerminalMusicPlayer.git
     ```
 
 2. Navigate to the project directory:
@@ -40,18 +40,8 @@ To run this application, you'll need to have Python and Flask installed.
     python startApp.py
     ```
 
-2. Once started, the terminal will display a local IP address.
+2. Once started, the terminal will display a local IP address , it will be like "http://127.0.0.1:5000"
 
 3. Open your web browser and visit the displayed local IP address to access the preview page of the music player.
 
-## Usage
 
-- Once the application is running and accessed through the browser, follow on-screen instructions to interact with the music player.
-
-## Contributing
-
-Feel free to contribute to this project by forking the repository and submitting pull requests. Please follow the [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
