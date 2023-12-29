@@ -1,4 +1,4 @@
-# Terminal Music Player / Lecteur de musique Terminal
+# Terminal Music Player
 
 A simple terminal-based music player that utilizes Python and Flask. / Un lecteur de musique simple basé sur le terminal qui utilise Python et Flask.
 
