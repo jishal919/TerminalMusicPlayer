@@ -1,0 +1,396 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  /*height: 130vh;*/
+  overflow-x: hidden; 
+  background-color: #000000;
+  background-image: linear-gradient( #130a0a 0%, #ce203c 84%);
+  width:300vh;
+
+
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.custom-heading {
+color: rgb(249, 249, 249);
+
+}
+
+.custom-heading{
+color:white;
+background-color: black;
+height: 5px;
+width: 100%;
+padding: 56px; 
+text-align: center;
+margin-bottom: 8px;
+}
+
+p{
+font-weight: bold;
+text-align: center;
+color:rgb(0, 0, 0);
+display: flex;
+justify-content: center;
+margin-top: 30px;
+height:50px;
+}
+
+.track-art.loading {
+/* Define your buffering animation styles here */
+/* For example, you can use a background spinner or any other animation */
+/* Display a loading spinner */
+background-image: url('static/gifs/buffering.gif');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.player{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+  max-width: 80%;
+}
+.wrapper{
+  border: 1px solid transparent;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: "#111111";
+  position: relative;
+  top: 1;
+  left: 1;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 130px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Audio seek slider */
+input[type="range"].seek_slider {
+background-color: #190019;
+}
+
+input[type="range"].seek_slider::-webkit-slider-thumb {
+background-color: black;
+}
+
+/* Sound slider */
+input[type="range"].volume_slider {
+background-color: #190019;
+}
+
+input[type="range"].volume_slider::-webkit-slider-thumb {
+background-color: black;
+}
+
+
+.added-by {
+display: flex;
+align-items: center;
+margin-top: 5px; /* Adjust the margin top value as needed */
+}
+
+.added-by img {
+margin-left: 3px; /* Adjust the margin left value as needed */
+width: 22px; /* Adjust the width value as needed */
+height: 22px; /* Adjust the height value as needed */
+}
+
+
+
+.track-art {
+position: relative;
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position: center;
+align-items: center;
+justify-content: center;
+border: 2px solid #fff;
+border-radius: 50%;
+box-shadow: 0px 6px 5px #ccc;
+-moz-box-shadow: 0px 6px 5px #ccc;
+-webkit-box-shadow: 0px 6px 5px #ccc;
+-moz-border-radius: 190px;
+-webkit-border-radius: 190px;
+border-radius: 190px;
+}
+
+
+.buffering-animation {
+/* Add the styling for the buffering animation container */
+position: absolute;
+bottom: 100; /* Set the buffering animation to be at the bottom */
+right: 0; /* Set the buffering animation to be at the right */
+
+width: 10px; /* Adjust the width as per your preference */
+height: 10px; /* Adjust the height as per your preference */
+/*text-align: center; /* Center the buffering animation horizontally */
+display: flex; /* Add flexbox properties to center the content vertically and horizontally */
+/*align-items: center;*/
+justify-content: center;
+margin-bottom: 75px;
+
+}
+
+.buffering-gif {
+background-color: black;
+/* Set the width and height for the buffering GIF */
+width: 35%; /* Set the width to 100% to occupy the container width */
+height: 35%; /* Set the height to 100% to occupy the container height */
+margin-top: 443px;
+margin-left:80px;
+margin-bottom: 100px;
+}
+
+
+
+.now-playing{
+  left: 50px;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-left: 15px;
+  color: darkgray;
+}
+.added-by{
+ font-size: 1.3rem;
+ color:white;
+ text-align:center;
+ margin-top: 0px;
+}
+.track-name {
+font-size: 1.7rem;
+color: rgb(255, 221, 221);
+margin-bottom: 5px;
+white-space: nowrap; /* Prevent line breaks */
+overflow: hidden; /* Hide overflowing content */
+text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
+margin-top: 5px;
+}
+
+.track-artist{
+  margin-top: 5px;
+  font-size: 1rem;
+  color: rgb(223, 223, 223);
+}
+
+/* Other existing styles */
+/* Other existing styles */
+
+.track-info {
+  display: flex;
+  align-items: center;
+}
+
+.floating-download-button {
+  margin-left: 250px;
+  background-color: #dd7575;
+  /*background-color: #ffffff;*/
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.floating-download-button img {
+  width: 35px;
+  height: 35px;
+}
+
+.floating-back-button {
+ margin-right: 290px;
+  /*background-color: #e3b3f2;*/
+  background-color: #5ad176;
+  color: #ffffff;
+  /*padding: 5px;*/
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.floating-back-button img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.buttons {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center; /* Add this line */
+margin-bottom: 10px;
+padding-left: 10px; /* Adjust this value as needed */
+padding-right: 20px; /* Adjust this value as needed */
+color: black;
+margin-top: 1px;
+height: 90px;
+}
+
+.active{
+  color: black;
+}
+.repeat-track,
+.random-track,
+.playpause-track,
+.prev-track,
+.next-track{
+  padding: 25px;
+  opacity: 0.8;
+  transition: opacity .2s;
+}
+.repeat-track:hover,
+.random-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover{
+  opacity: 1.0;
+}
+.slider_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seek_slider,
+.volume_slider{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #19aa00;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 3px solid #2ca300;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.seek_slider:hover,
+.volume_slider:hover{
+  opacity: 1.0;
+}
+.seek_slider{
+  width: 60%;
+}
+.volume_slider{
+  width: 30%;
+}
+.current-time,
+.total-duration{
+  padding: 10px;
+}
+i.fa-volume-down,
+i.fa-volume-up{
+  padding: 10px;
+}
+i,
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward{
+  cursor: pointer;
+}
+.randomActive{
+  color: white;
+}
+.rotate{
+  animation: rotation 8s infinite linear;
+}
+.animate-wave {
+animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+0% {
+  transform: rotate(0deg);
+}
+100% {
+  transform: rotate(0deg);
+}
+}
+
+
+.loader{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+  
+}
+.stroke{
+  background: black;
+  height: 160%;
+  width: 20px;
+  border-radius: 50px;
+  margin: 0px 5px;
+  animation: animate 1.2s linear infinite;
+  display: flex;
+}
+@keyframes animate{
+  50%{
+      height: 20%;
+      background: black;
+  }
+  100%{
+      height: 100%;
+  }
+}
+@keyframes colorChange {
+0% {
+  background-color: initial;
+}
+50% {
+  background-color: initial;
+}
+100% {
+  background-color: var(--new-color);
+}
+}
+
+#wave:not(.playing) .stroke {
+animation-play-state: paused;
+}
+
+
+.stroke:nth-child(1){
+  animation-delay: 0s;
+
+}
+.stroke:nth-child(2){
+  animation-delay: 0.3s;
+}
+.stroke:nth-child(3){
+  animation-delay: 0.6s;
+}
+.stroke:nth-child(4){
+  animation-delay: 0.9s;
+}
+.stroke:nth-child(5){
+  animation-delay: 0.6s;
+}
+.stroke:nth-child(6){
+  animation-delay: 0.3s;
+}
+.stroke:nth-child(7){
+  animation-delay: 0s;
+}
